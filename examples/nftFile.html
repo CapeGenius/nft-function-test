@@ -1,0 +1,165 @@
+<html>
+
+<head>
+    <title>Pattern marker example with Three.js and wasm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        .portrait canvas {
+            transform-origin: 0 0;
+            transform: rotate(-90deg) translateX(-100%);
+        }
+
+        .desktop canvas {
+            transform: scale(-1, 1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <script type='text/javascript'>
+        var artoolkit_wasm_url = '../build/artoolkit_wasm.wasm';
+    </script>
+    <script src="../build/artoolkit_wasm.js"></script>
+    <script async src="js/third_party/three.js/three.min.js"></script>
+    <script async src="../js/artoolkit.three.js"></script>
+
+    <script>
+        window.addEventListener('artoolkit-loaded', () => {
+            window.ARThreeOnLoad = function () {
+
+                ARController.getUserMediaThreeScene({
+                    maxARVideoSize: 320, cameraParam: 'Data/camera_para-iPhone 5 rear 640x480 1.0m.dat',
+                    onSuccess: function (arScene, arController, arCamera) {
+
+                        document.body.className = arController.orientation;
+
+                        var renderer = new THREE.WebGLRenderer({ antialias: true });
+                        if (arController.orientation === 'portrait') {
+                            var w = (window.innerWidth / arController.videoHeight) * arController.videoWidth;
+                            var h = window.innerWidth;
+                            renderer.setSize(w, h);
+                            renderer.domElement.style.paddingBottom = (w - h) + 'px';
+                        } else {
+                            if (/Android|mobile|iPad|iPhone/i.test(navigator.userAgent)) {
+                                renderer.setSize(window.innerWidth, (window.innerWidth / arController.videoWidth) * arController.videoHeight);
+                            } else {
+                                renderer.setSize(arController.videoWidth, arController.videoHeight);
+                                document.body.className += ' desktop';
+                            }
+                        }
+
+                        document.body.insertBefore(renderer.domElement, document.body.firstChild);
+
+                        var rotationV = 0;
+                        var rotationTarget = 0;
+
+                        renderer.domElement.addEventListener('click', function (ev) {
+                            ev.preventDefault();
+                            rotationTarget += 1;
+                        }, false);
+
+                        var sphere = new THREE.Mesh(
+                            new THREE.SphereGeometry(0.5, 8, 8),
+                            new THREE.MeshNormalMaterial()
+                        );
+                        sphere.material.flatShading;
+                        sphere.position.z = 40;
+                        sphere.position.x = 80;
+                        sphere.position.y = 80;
+                        sphere.scale.set(80, 80, 80);
+
+                        var torus = new THREE.Mesh(
+                            new THREE.TorusGeometry(0.3, 0.2, 8, 8),
+                            new THREE.MeshNormalMaterial()
+                        );
+                        torus.material.shading = THREE.FlatShading;
+                        torus.position.z = 0.5;
+                        torus.rotation.x = Math.PI / 2;
+
+                        arController.loadNFTMarker('DataNFT/himalayarestaurant', function (markerId) {
+                            var markerRoot = arController.createThreeNFTMarker(markerId);
+                            markerRoot.add(sphere);
+                            arScene.scene.add(markerRoot);
+                        });
+
+                        arController.loadMarker('Data/patt.kanji', function (markerId) {
+                            var markerRoot = arController.createThreeMarker(markerId);
+                            markerRoot.add(torus);
+                            arScene.scene.add(markerRoot);
+                        });
+
+                        var tick = function () {
+                            arScene.process();
+
+                            rotationV += (rotationTarget - sphere.rotation.z) * 0.05;
+                            sphere.rotation.z += rotationV;
+                            torus.rotation.y += rotationV;
+                            rotationV *= 0.8;
+
+                            arScene.renderOn(renderer);
+                            requestAnimationFrame(tick);
+                        };
+
+                        tick();
+
+                    }
+                });
+
+                delete window.ARThreeOnLoad;
+
+            };
+
+            if (window.ARController && ARController.getUserMediaThreeScene) {
+                ARThreeOnLoad();
+            }
+        });
+
+    </script>
+
+    <div id="container">
+        <video id="video"></video>
+        <canvas style="position: absolute; left:0; top:0" id="canvas_draw"></canvas>
+    </div>
+    <!-- main worker create the web worker see in the examples/nft_improved_worker for details -->
+    <script src="main_worker.js"></script>
+    <script>
+        var container = document.getElementById('container');
+        var video = document.getElementById('video');
+        var canvas_draw = document.getElementById('canvas_draw');
+
+        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+            var hint = {};
+            if (isMobile()) {
+                hint = {
+                    facingMode: { "ideal": "environment" },
+                    audio: false,
+                    video: {
+                        width: { min: 240, max: 240 },
+                        height: { min: 360, max: 360 },
+                    },
+                };
+            }
+
+            navigator.mediaDevices.getUserMedia({ video: hint }).then(function (stream) {
+                video.srcObject = stream;
+                video.play();
+                video.addEventListener("loadedmetadata", function () {
+                    start(container, markers["pinball"], video, video.videoWidth, video.videoHeight, canvas_draw, function () { statsMain.update() }, function () { statsWorker.update())
+                }
+            });
+        };
+    </script>
+
+</body>
+
+</html>
