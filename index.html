@@ -33,7 +33,7 @@ html,body {
     window.addEventListener('artoolkit-loaded', () => {
       window.ARThreeOnLoad = function() {
 
-      	ARController.getUserMediaThreeScene({maxARVideoSize: 320, cameraParam: 'Data/camera_para-iPhone 5 rear 640x480 1.0m.dat',
+      	ARController.getUserMediaThreeScene({maxARVideoSize: 320, cameraParam: '../Data/camera_para-iPhone 5 rear 640x480 1.0m.dat',
       	onSuccess: function(arScene, arController, arCamera) {
 
       		document.body.className = arController.orientation;
@@ -81,13 +81,13 @@ html,body {
       		torus.position.z = 0.5;
       		torus.rotation.x = Math.PI/2;
 
-      		arController.loadNFTMarker('DataNFT/heart2', function(markerId) {
+      		arController.loadNFTMarker('../DataNFT/heart2', function(markerId) {
       			var markerRoot = arController.createThreeNFTMarker(markerId);
       			markerRoot.add(sphere);
       			arScene.scene.add(markerRoot);
       		});
 
-      		arController.loadMarker('Data/patt.kanji', function(markerId) {
+      		arController.loadMarker('../Data/patt.kanji', function(markerId) {
       			var markerRoot = arController.createThreeMarker(markerId);
       			markerRoot.add(torus);
       			arScene.scene.add(markerRoot);
