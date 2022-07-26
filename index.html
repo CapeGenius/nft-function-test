@@ -81,7 +81,7 @@ html,body {
       		torus.position.z = 0.5;
       		torus.rotation.x = Math.PI/2;
 
-      		arController.loadNFTMarker('../DataNFT/heart2', function(markerId) {
+      		arController.loadNFTMarker('./examples/DataNFT/heart2', function(markerId) {
       			var markerRoot = arController.createThreeNFTMarker(markerId);
       			markerRoot.add(sphere);
       			arScene.scene.add(markerRoot);
