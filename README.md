@@ -1,5 +1,5 @@
 # nft-function-test
-Repo forked from jsartoolkit5 to test AR functionalities
+Repo forked from jsartoolkit5 to test AR functionalities.
 To test if an NFT can render a 3D model, go to examples folder. In the examples folder, there are multiple NFT batches (same name but with extensions of iset, fset3, fset)
 in the DataNFT folder. Then, open the nft_threejs_wasm.html file within the examples folder and on line 84 you can change the name of the extension after 'DataNFT' to a file 
 in the examples. Do NOT add the extension of any of the files within the "DataNFT" files. 
