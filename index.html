@@ -43,20 +43,7 @@
 
     }
 </style>
-
-<body style="margin : 0px; overflow: hidden;">
-    <!-- minimal loader shown until image descriptors are loaded -->
-    <div class="arjs-loader">
-        <div>Loading, please wait...</div>
-    </div>
-
-    <div class="annotation">
-        <p><strong>Cube</strong></p>
-        <p>In geometry, a cube is a three-dimensional solid object bounded by six square faces, facets or sides, with
-            three meeting at each vertex.</p>
-    </div>
-    <canvas id="number" width="64" height="64"></canvas>
-
+<head>
     <script>
         AFRAME.registerComponent('log', {
             schema: { type: 'string' },
@@ -140,6 +127,21 @@
         annotation.style.opacity = spriteBehindObject ? 0.25 : 1;
 
     </script>
+
+</head>
+
+<body style="margin : 0px; overflow: hidden;">
+    <!-- minimal loader shown until image descriptors are loaded -->
+    <div class="arjs-loader">
+        <div>Loading, please wait...</div>
+    </div>
+
+    <div class="annotation">
+        <p><strong>Cube</strong></p>
+        <p>In geometry, a cube is a three-dimensional solid object bounded by six square faces, facets or sides, with
+            three meeting at each vertex.</p>
+    </div>
+    <canvas id="number" width="64" height="64"></canvas>
 
     <a-scene vr-mode-ui="enabled: false;" renderer="logarithmicDepthBuffer: true; precision: medium;" embedded
         arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;">
