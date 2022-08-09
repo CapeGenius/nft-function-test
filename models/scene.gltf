@@ -1,0 +1,1147 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 8460,
+      "max": [
+        130.7964324951172,
+        19.649057388305664,
+        159.8031005859375
+      ],
+      "min": [
+        -99.30262756347656,
+        -179.88790893554688,
+        -72.78205871582031
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 101520,
+      "componentType": 5126,
+      "count": 8460,
+      "max": [
+        0.9997228980064392,
+        0.9999714493751526,
+        0.9999132752418518
+      ],
+      "min": [
+        -0.9996835589408875,
+        -0.9999019503593445,
+        -0.999869704246521
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 8460,
+      "max": [
+        0.11764705926179886,
+        0.20392157137393951,
+        0.5490196347236633,
+        1.0
+      ],
+      "min": [
+        0.10196078568696976,
+        0.1882352977991104,
+        0.5333333611488342,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 50760,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 203040,
+      "componentType": 5126,
+      "count": 35849,
+      "max": [
+        138.56715393066406,
+        140.10345458984375,
+        159.18443298339844
+      ],
+      "min": [
+        -143.72100830078125,
+        -197.7237091064453,
+        -88.76885986328125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 633228,
+      "componentType": 5126,
+      "count": 35849,
+      "max": [
+        0.9999517798423767,
+        0.999882698059082,
+        0.9999345541000366
+      ],
+      "min": [
+        -0.9999428391456604,
+        -0.9998329281806946,
+        -0.9999901652336121
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 135360,
+      "componentType": 5126,
+      "count": 35849,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.15294118225574493,
+        0.007843137718737125,
+        0.003921568859368563,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 35849,
+      "max": [
+        0.998046875,
+        0.9763373136520386
+      ],
+      "min": [
+        0.0019531294237822294,
+        0.0019531294237822294
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 203040,
+      "componentType": 5125,
+      "count": 196326,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1063416,
+      "componentType": 5126,
+      "count": 2473,
+      "max": [
+        46.33265686035156,
+        26.566133499145508,
+        142.76739501953125
+      ],
+      "min": [
+        -40.129493713378906,
+        -45.39112854003906,
+        2.7182958126068115
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1093092,
+      "componentType": 5126,
+      "count": 2473,
+      "max": [
+        0.9966370463371277,
+        0.9994226098060608,
+        0.9965572357177734
+      ],
+      "min": [
+        -0.9975453019142151,
+        -0.9997025728225708,
+        -0.9990196824073792
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 708944,
+      "componentType": 5126,
+      "count": 2473,
+      "max": [
+        0.8549019694328308,
+        0.7137255072593689,
+        0.6000000238418579,
+        1.0
+      ],
+      "min": [
+        0.5372549295425415,
+        0.32549020648002625,
+        0.29411765933036804,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 988344,
+      "componentType": 5125,
+      "count": 9942,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1122768,
+      "componentType": 5126,
+      "count": 17131,
+      "max": [
+        39.81037139892578,
+        192.02420043945313,
+        97.03514099121094
+      ],
+      "min": [
+        -77.1668472290039,
+        -187.525390625,
+        -160.16357421875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1328340,
+      "componentType": 5126,
+      "count": 17131,
+      "max": [
+        0.9999439120292664,
+        0.9997647404670715,
+        0.9999322295188904
+      ],
+      "min": [
+        -0.9999699592590332,
+        -0.9990658760070801,
+        -0.999620258808136
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 748512,
+      "componentType": 5126,
+      "count": 17131,
+      "max": [
+        0.7607843279838562,
+        0.5803921818733215,
+        0.5137255191802979,
+        1.0
+      ],
+      "min": [
+        0.6901960968971252,
+        0.48235294222831726,
+        0.4117647111415863,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1028112,
+      "componentType": 5125,
+      "count": 80334,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1533912,
+      "componentType": 5126,
+      "count": 10611,
+      "max": [
+        69.83444213867188,
+        -3.86979079246521,
+        100.18225860595703
+      ],
+      "min": [
+        -98.53743743896484,
+        -117.69986724853516,
+        -54.911094665527344
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1661244,
+      "componentType": 5126,
+      "count": 10611,
+      "max": [
+        0.9995284080505371,
+        0.999472975730896,
+        0.9995770454406738
+      ],
+      "min": [
+        -0.9998892545700073,
+        -0.999899685382843,
+        -0.9998093247413635
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1022608,
+      "componentType": 5126,
+      "count": 10611,
+      "max": [
+        0.886274516582489,
+        0.7843137383460999,
+        0.7333333492279053,
+        1.0
+      ],
+      "min": [
+        0.886274516582489,
+        0.7843137383460999,
+        0.7333333492279053,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1349448,
+      "componentType": 5125,
+      "count": 33969,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1788576,
+      "componentType": 5126,
+      "count": 468,
+      "max": [
+        32.146915435791016,
+        124.12854766845703,
+        39.98720169067383
+      ],
+      "min": [
+        20.8900089263916,
+        102.30103302001953,
+        -18.430683135986328
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1794192,
+      "componentType": 5126,
+      "count": 468,
+      "max": [
+        0.9969424605369568,
+        0.9777510762214661,
+        0.9939200282096863
+      ],
+      "min": [
+        -0.9997794032096863,
+        -0.9963082671165466,
+        -0.8299942016601563
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1192384,
+      "componentType": 5126,
+      "count": 468,
+      "max": [
+        0.8196078538894653,
+        0.7215686440467834,
+        0.6784313917160034,
+        1.0
+      ],
+      "min": [
+        0.686274528503418,
+        0.5176470875740051,
+        0.4470588266849518,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 286792,
+      "componentType": 5126,
+      "count": 468,
+      "max": [
+        0.9980468153953552,
+        0.7486425042152405
+      ],
+      "min": [
+        0.0019531266298145056,
+        0.0019531266298145056
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1485324,
+      "componentType": 5125,
+      "count": 2652,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1799808,
+      "componentType": 5126,
+      "count": 7963,
+      "max": [
+        102.41600799560547,
+        106.13980865478516,
+        144.14602661132813
+      ],
+      "min": [
+        -83.41529083251953,
+        -11.920868873596191,
+        -28.811153411865234
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1895364,
+      "componentType": 5126,
+      "count": 7963,
+      "max": [
+        0.9999964833259583,
+        0.9999693632125854,
+        0.9995470643043518
+      ],
+      "min": [
+        -0.9999818801879883,
+        -0.9998330473899841,
+        -0.999865710735321
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1199872,
+      "componentType": 5126,
+      "count": 7963,
+      "max": [
+        0.6980392336845398,
+        0.49803921580314636,
+        0.41960784792900085,
+        1.0
+      ],
+      "min": [
+        0.6980392336845398,
+        0.49803921580314636,
+        0.41960784792900085,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1495932,
+      "componentType": 5125,
+      "count": 47790,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1990920,
+      "componentType": 5126,
+      "count": 3798,
+      "max": [
+        89.49064636230469,
+        71.58100128173828,
+        114.14103698730469
+      ],
+      "min": [
+        -4.711556911468506,
+        -12.769142150878906,
+        -26.835796356201172
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2036496,
+      "componentType": 5126,
+      "count": 3798,
+      "max": [
+        0.9997706413269043,
+        0.9992276430130005,
+        0.9969542026519775
+      ],
+      "min": [
+        -0.9998804330825806,
+        -0.9999737739562988,
+        -0.9976298809051514
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1327280,
+      "componentType": 5126,
+      "count": 3798,
+      "max": [
+        0.8078431487083435,
+        0.686274528503418,
+        0.6784313917160034,
+        1.0
+      ],
+      "min": [
+        0.2235294133424759,
+        0.003921568859368563,
+        0.003921568859368563,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1687092,
+      "componentType": 5125,
+      "count": 22968,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2082072,
+      "componentType": 5126,
+      "count": 18880,
+      "max": [
+        132.05545043945313,
+        22.440675735473633,
+        159.6373748779297
+      ],
+      "min": [
+        -103.31322479248047,
+        -180.81121826171875,
+        -66.7719497680664
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2308632,
+      "componentType": 5126,
+      "count": 18880,
+      "max": [
+        0.9999364018440247,
+        0.9998712539672852,
+        0.9998911619186401
+      ],
+      "min": [
+        -0.9997668266296387,
+        -0.9999899864196777,
+        -0.9999295473098755
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1388048,
+      "componentType": 5126,
+      "count": 18880,
+      "max": [
+        0.7921568751335144,
+        0.0235294122248888,
+        0.0,
+        1.0
+      ],
+      "min": [
+        0.7843137383460999,
+        0.01568627543747425,
+        0.0,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1778964,
+      "componentType": 5125,
+      "count": 113256,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "E-learning UMCG (https://sketchfab.com/eLearningUMCG)",
+      "license": "CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "source": "https://sketchfab.com/3d-models/anatomical-heart-codominance-42d07ac1517748ea82bb05b0a362b298",
+      "title": "Anatomical heart - codominance"
+    },
+    "generator": "Sketchfab-12.66.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2231988,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 290536,
+      "byteOffset": 2231988,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2535192,
+      "byteOffset": 2522524,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1690128,
+      "byteOffset": 5057716,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 6747844,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            0.294
+          ],
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "Veins"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            0.94
+          ],
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.05,
+            0.05,
+            0.05
+          ]
+        }
+      },
+      "name": "Hart_basis"
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.7726159854240001,
+        0.679328488293,
+        0.47887342882199996
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "Valves"
+    },
+    {
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "Aorta"
+    },
+    {
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.05,
+            0.05,
+            0.05
+          ]
+        }
+      },
+      "name": "Avvalves"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.05,
+            0.05,
+            0.05
+          ]
+        }
+      },
+      "name": "Ligament"
+    },
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "name": "Pulmonary_trunk"
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            0.5,
+            0.5,
+            0.5,
+            0.904
+          ],
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.05,
+            0.05,
+            0.05
+          ]
+        }
+      },
+      "name": "Heartear"
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "glossinessFactor": 0.0,
+          "specularFactor": [
+            0.05,
+            0.05,
+            0.05
+          ]
+        }
+      },
+      "name": "Arteries2"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Veins_Veins_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 2,
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Hart_basis_Hart_basis_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 6,
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 7
+          },
+          "indices": 8,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Valves_Valves_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 11,
+            "NORMAL": 10,
+            "POSITION": 9
+          },
+          "indices": 12,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Aorta_Aorta_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 15,
+            "NORMAL": 14,
+            "POSITION": 13
+          },
+          "indices": 16,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Avvalves_Avvalves_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 19,
+            "NORMAL": 18,
+            "POSITION": 17
+          },
+          "indices": 20,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Ligament_Ligament_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 23,
+            "NORMAL": 22,
+            "POSITION": 21,
+            "TEXCOORD_0": 24
+          },
+          "indices": 25,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary_trunk_Pulmonary_trunk_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 28,
+            "NORMAL": 27,
+            "POSITION": 26
+          },
+          "indices": 29,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Heartear_Heartear_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 32,
+            "NORMAL": 31,
+            "POSITION": 30
+          },
+          "indices": 33,
+          "material": 7,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Arteries2_Arteries2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 36,
+            "NORMAL": 35,
+            "POSITION": 34
+          },
+          "indices": 37,
+          "material": 8,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -0.7296165823936462,
+        -0.6800020933151245,
+        0.07250376045703873,
+        0.0,
+        -0.6052152514457703,
+        0.691435933113098,
+        0.39450082182884233,
+        0.0,
+        -0.3183930814266205,
+        0.24395397305488606,
+        -0.9160307049751282,
+        0.0,
+        -5.255115985870361,
+        -4.0315771102905265,
+        -2.675252914428712,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "44bdbdabb00b40adbce4655a9dd2f7c5.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "Veins"
+    },
+    {
+      "mesh": 0,
+      "name": "Veins_Veins_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "Hart_basis"
+    },
+    {
+      "mesh": 1,
+      "name": "Hart_basis_Hart_basis_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "name": "Valves"
+    },
+    {
+      "mesh": 2,
+      "name": "Valves_Valves_0"
+    },
+    {
+      "children": [
+        10
+      ],
+      "name": "Aorta"
+    },
+    {
+      "mesh": 3,
+      "name": "Aorta_Aorta_0"
+    },
+    {
+      "children": [
+        12
+      ],
+      "name": "Avvalves"
+    },
+    {
+      "mesh": 4,
+      "name": "Avvalves_Avvalves_0"
+    },
+    {
+      "children": [
+        14
+      ],
+      "name": "Ligament"
+    },
+    {
+      "mesh": 5,
+      "name": "Ligament_Ligament_0"
+    },
+    {
+      "children": [
+        16
+      ],
+      "name": "Pulmonary_trunk"
+    },
+    {
+      "mesh": 6,
+      "name": "Pulmonary_trunk_Pulmonary_trunk_0"
+    },
+    {
+      "children": [
+        18
+      ],
+      "name": "Heartear"
+    },
+    {
+      "mesh": 7,
+      "name": "Heartear_Heartear_0"
+    },
+    {
+      "children": [
+        20
+      ],
+      "name": "Arteries2"
+    },
+    {
+      "mesh": 8,
+      "name": "Arteries2_Arteries2_0"
+    },
+    {
+      "children": [
+        22
+      ],
+      "matrix": [
+        -0.04878067598860669,
+        -0.2132927469432556,
+        -0.975769772923662,
+        0.0,
+        -0.2805275943366652,
+        0.9405351998963473,
+        -0.1915667157196717,
+        0.0,
+        0.9586056094483163,
+        0.2643855931349861,
+        -0.10571444403147368,
+        0.0,
+        14866.0869140625,
+        65033.80859375,
+        297627.71875,
+        1.0
+      ],
+      "name": "ZBrushDefault"
+    },
+    {
+      "name": "Object_22"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
