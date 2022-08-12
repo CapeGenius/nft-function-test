@@ -5,7 +5,8 @@
     src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
 <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
 <script src="gesture-detector.js"></script>
-<script src+="gesture-handler.js"></script>
+<script src="gesture-handler.js"></script>
+<script src="annotatoin.js"></script>
 
 <style>
     .arjs-loader {
@@ -55,27 +56,28 @@
         color: white;
     }
 
-    
+    .annotation {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        margin-left: 15px;
+        margin-top: 15px;
+        padding: 1em;
+        width: 200px;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.8);
+        border-radius: .5em;
+        font-size: 12px;
+        line-height: 1.2;
+        transition: opacity .5s;
+    }
+
 </style>
 
 <head>
-    <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
-        <div>
-            <a href="#" class="active"></a>
-            <a href="#" class="active">Link 1</a>
-            <a href="#" class="active">Link 2</a>
-            <a href="#" class="active">Link 3</a>
-            <a href="#" class="active">Link 4</a>
-        </div>
-    </div>
-
+    
 </head>
-
-<script>
-
-
-</script>
 
 <body style="margin : 0px; overflow: hidden;">
 
@@ -84,7 +86,14 @@
         <div>Loading, please wait...</div>
     </div>
 
-    <a-scene arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;" embedded
+    <div class="annotation"> 
+        <p><strong>Cube</strong></p>
+        <p>This is an annotaiton marker</p>
+    </div>
+
+    <canvas id="number" width="64" height="64"></canvas>
+
+    <a-scene annotation-tagging arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;" embedded
         renderer="logarithmicDepthBuffer: true;" vr-mode-ui="enabled: false" gesture-detector id="scene">
         <a-nft type="nft" url="examples/DataNFT/heart2" smooth="true" smoothCount="10" smoothTolerance=".01"
             smoothThreshold="5" raycaster="objects: .clickable" emitevents="true"
